@@ -1,0 +1,205 @@
+header {
+  height: 65px;
+  border-bottom: 0.1px solid white;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 65px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float: left;
+  font-size: 15px;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item {
+  margin-left: 30px;
+}
+
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.sweets {
+  background-image: url(../img/fv.png);
+  background-size: cover;
+  height: 500px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.heading h2 {
+  font-size: 50px;
+}
+
+.heading p {
+  font-size: 13px;
+}
+
+.about {
+  background-color: #f1eee4;
+}
+
+.about img {
+  width: 300px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  padding-left: 50px;
+}
+
+.menu {
+  background-color: #f1eee4;
+  padding-bottom: 80px;
+}
+
+.cakes {
+  display: flex;
+}
+
+.cake {
+  width: 30%;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.cake img {
+  margin-bottom: 10px;
+}
+
+.cake-en {
+  font-size: 12px;
+}
+
+.cake-text {
+  padding-top: 20px;
+}
+
+.shop {
+  background-image: url(../img/bg-shop.png);
+  background-size: cover;
+  height: 420px;
+  color: white;
+  text-align: center;
+}
+
+.shop-heading {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.shop-heading h2 {
+  font-size: 50px;
+}
+
+.shop-heading p {
+  font-size: 13px;
+}
+
+.shop-text {
+  font-size: 13px;
+  margin-bottom: 90px;
+}
+
+.address {
+  opacity: 0.7;
+  border-radius: 5px;
+  border: none;
+  width: 400px;
+  padding: 14px;
+  font-size: 13px;
+}
+
+.send {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 20px;
+  color: white;
+  background-color: #a98c5f;
+  font-size: 14px;
+}
+
+.gaide {
+  background-color: #3c301e;
+  text-align: center;
+  height: 280px;
+  color: white;
+}
+
+.gaide-heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.gaide-heading h4 {
+  font-size: 25px;
+}
+
+.gaide-heading p {
+  font-size: 12px;
+}
+
+.gaide-page {
+  width: 400px;
+  margin: auto;
+}
+
+.gaide-icon {
+  float: left;
+  width: 30%;
+  padding-top: 30px;
+}
+
+.gaide-icon img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.gaide-icon-text {
+  font-size: 12px;
+}
+
+.clear {
+  clear: left;
+}
+
+
+footer {
+  background-color: #3c301e;
+  color: white;
+  text-align: center;
+  border-top: 0.1px solid white;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+}
