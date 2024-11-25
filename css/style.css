@@ -35,7 +35,7 @@ header {
 
 
 .container {
-  width: 1000px;
+  width: 80%;
   margin: auto;
 }
 
@@ -202,4 +202,17 @@ footer {
   font-size: 12px;
   height: 40px;
   line-height: 40px;
+}
+
+
+
+/* スマートフォン表示 */
+@media(max-width: 670px) {
+  .header-left {
+    text-align: center;
+  }
+
+  .cake {
+    display: ;
+  }
 }
